@@ -4,10 +4,8 @@
 namespace mdl {
 # ifdef SIGNED_CHAR
 	typedef signed char echar_t;
-# elif UNSIGNED_CHAR
-	typedef unsigned char echar_t;
 # else
-	typedef char echar_t;
+	typedef unsigned char echar_t;
 # endif
 }
 
